@@ -26,8 +26,8 @@ html {
 }
 
 body {
-   color: rgb(91, 91, 91);
-   background-color: ivory;
+   color: rgb(154, 13, 107);
+   background-color: rgb(237, 226, 236);
    font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -41,13 +41,13 @@ h2 {
 }
 
 h1, h2 {
-   font-family: Quicksand, Verdana, Geneva, sans-serif;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    letter-spacing: 0.1em;
 }
 
 article#about_tss h1 {
    color: white;
-   background-color: rgb(222, 128, 60);
+   background-color: rgb(126, 226, 196);
 }
 
 article#about_tss h2 {
@@ -57,7 +57,7 @@ article#about_tss h2 {
 
 article.syllabus h1, article.syllabus h2 {
    background-color: rgb(255, 185, 255);
-   color: rgb(101, 101, 101);
+   color: rgb(0, 0, 0);
 }
 
 /* Aside and Blockquote Styles */
@@ -67,8 +67,15 @@ aside {
 }
 
 aside blockquote {
-   color: rgb(232, 165, 116);
+   color: black;
    margin: 20px 5px;
+   padding: 10px 15px;
+   border-left: 5px solid rgb(0, 0, 0);
+   background-color: rgb(255, 177, 228);
+   font-style: italic;
+   line-height: 1.4em;
+   font-family: 'Times New Roman', Times, serif;
+
 }
 
 aside blockquote::before {
